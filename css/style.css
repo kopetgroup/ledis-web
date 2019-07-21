@@ -1,0 +1,205 @@
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+a {
+  color: #7f8c8d;
+}
+
+a:hover,a:focus {
+  color: #45a797;
+}
+
+h2 { 
+  color: #45a797;
+}
+
+.gradient h2 {
+  color: #7f8c8d ;
+}
+
+.features h3 {
+  color: #3d4c4e;
+  font-size: 22px;
+}
+
+p {
+  color: #7f8c8d;
+}
+
+.jumbotron h1 {
+  color: #131d1f;
+}
+
+.jumbotron p {
+  color: #7f8c8d;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+  color:  #7f8c8d ;
+  background: None;
+}
+
+.nav-pills>li>a, .nav-pills>li>a:hover, .nav-pills>li>a:focus {
+  color:  #7f8c8d ;
+
+} 
+
+.nav>li>a:hover, .nav>li>a:focus {
+  background-color: transparent;
+  color: #45a797;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.features,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.header{
+    border-bottom: 1px solid #e5e5e5;
+    /*margin-top: 10px;*/
+    padding-bottom: 15px
+}
+
+/* Make the masthead heading the same height as the navigation */
+.logo {
+
+  padding-bottom: 19px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+/* Custom page footer */
+.gradient {
+  margin-top: 30px;
+  line-height: 20px;
+  padding-top: 19px;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Main features message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+/* Supporting features content */
+.features {
+  margin: 40px 0;
+}
+.features p + h4 {
+  margin-top: 28px;
+}
+.features > div{
+  padding:1px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .features,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+.col-sm-4{
+  width: 49.333333%;
+}
+
+.about {
+  margin-right: 20px;
+  padding-left: 150px;
+}
+
+.underline-link {
+    text-decoration: underline;
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  text-decoration: none;
+}
+
+.row.contact > h2 {
+  margin-bottom: 10px;
+}
+
+.row {
+  margin-left: 0px;
+}
+
+.hide {
+  display: none;
+}
+
+
+.btn-ledis {
+  color: #fff;
+  background-color: #45a797;
+/*  border-color: #45a797;*/
+}
+
+.btn-ledis:hover {
+  color: #fff;
+  background-color: #5abdad;
+  /*border-color: #5abdad;*/
+}
+
+.post p a,
+.benchmark a {
+  text-decoration: underline;
+}
+
+.content {
+  margin-top: 30px;
+}
+
+.post p{
+  font-size: medium;
+}
+
+p.small.text-muted {
+  font-size: small;
+}
+/*
+     FILE ARCHIVED ON 04:47:19 Feb 01, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 14:09:37 Jul 21, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 78.821 (3)
+  esindex: 0.009
+  captures_list: 115.607
+  CDXLines.iter: 12.49 (3)
+  PetaboxLoader3.datanode: 63.78 (4)
+  exclusion.robots: 0.187
+  exclusion.robots.policy: 0.173
+  RedisCDXSource: 5.909
+  PetaboxLoader3.resolve: 331.964
+  load_resource: 365.597
+*/
